@@ -1,0 +1,15 @@
+/run/initialize
+
+/gps/particle gamma
+/gps/energy 611 keV
+
+# Position: 10cm vor dem Detektor (Z-Achse)
+/gps/position 0 13 -80 mm
+
+# Richtung: In Richtung des Detektors (positive Z-Achse)
+#/gps/direction 0 -1 0
+/gps/ang/type focused
+/gps/ang/focuspoint 0 -30 0 mm
+
+# Starte 1000 Events
+#/run/beamOn 1000000

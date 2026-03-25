@@ -1,0 +1,16 @@
+/gps/particle ion
+/gps/ion 19 40 0 0
+/gps/energy 0 keV
+
+/gps/pos/type Volume
+/gps/pos/shape Sphere
+/gps/pos/centre 0 -20 0 cm
+/gps/pos/radius 50 cm
+/gps/pos/confine Lead
+/gps/ang/type iso
+
+
+#/gps/pos/type Point
+#/gps/pos/centre 0 13 -80 mm
+
+#/gps/ang/type iso

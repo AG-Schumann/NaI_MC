@@ -1,0 +1,10 @@
+/gps/particle ion
+/gps/ion 55 137 0 0
+/gps/energy 0 eV
+
+/gps/pos/type Point
+#/gps/pos/shape Circle
+#/gps/pos/radius 13 mm
+/gps/pos/centre 0 13 -80 mm
+
+/gps/ang/type iso

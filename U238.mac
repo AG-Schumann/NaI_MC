@@ -1,0 +1,18 @@
+/gps/particle ion
+/gps/ion 92 238 0 0
+/gps/energy 0 eV
+
+/gps/pos/type Volume
+/gps/pos/shape Sphere
+/gps/pos/centre 0 -10 0 cm
+/gps/pos/radius 50 cm
+/gps/pos/confine Crystal
+/gps/ang/type iso
+
+#/gps/pos/type Point
+#/gps/pos/centre 0 13 -80 mm
+
+/gps/ang/type iso
+#/process/had/rdm/nucleusLimits 238 238 92 92
+#/process/had/rdm/thresholdForVeryLongDecayTime 1.0 microsecond
+/process/had/rdm/thresholdForVeryLongDecayTime 1.0e+60 second

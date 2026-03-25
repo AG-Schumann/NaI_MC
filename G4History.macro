@@ -1,0 +1,16 @@
+/run/verbose 0
+/run/initialize
+/control/execute vis.mac
+/vis/open VRML2FILE
+/vis/sceneHandler/create VRML2FILE
+/vis/viewer/create ! ! 600
+/vis/viewer/set/autoRefresh false
+/vis/drawVolume
+/vis/scene/create
+/vis/scene/add/volume world -1 -1 none m 0 0 0 0 0 0
+/vis/sceneHandler/attach
+/vis/viewer/set/viewpointThetaPhi 90. 180.
+/vis/viewer/zoom 1.4
+/vis/viewer/flush
+/vis/viewer/refresh viewer-0
+/vis/viewer/update viewer-0
